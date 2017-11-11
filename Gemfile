@@ -33,6 +33,7 @@ group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'shoulda-matchers'
+  gem 'database_flusher'
   gem 'nyan-cat-formatter'
   gem 'simplecov', require: false
   gem 'factory_bot_rails'
