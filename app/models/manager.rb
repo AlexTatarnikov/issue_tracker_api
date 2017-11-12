@@ -1,4 +1,4 @@
-class User < ApplicationRecord
+class Manager < ApplicationRecord
   include Auth
 
   validates :email, uniqueness: true

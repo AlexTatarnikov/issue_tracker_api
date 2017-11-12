@@ -1,8 +1,8 @@
 {
-  "resource": "User",
+  "resource": "Manager",
   "resource_explanation": null,
   "http_method": "POST",
-  "route": "api/v1/users/registrations",
+  "route": "api/v1/managers/registrations",
   "description": "Creating a user account",
   "explanation": null,
   "parameters": [
@@ -31,7 +31,7 @@
   "requests": [
     {
       "request_method": "POST",
-      "request_path": "api/v1/users/registrations",
+      "request_path": "api/v1/managers/registrations",
       "request_body": "sign_up[email]=batman%40gotham.com&sign_up[password]=password&sign_up[password_confirmation]=password",
       "request_headers": {
         "Accept": "application/json",
@@ -42,14 +42,14 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"jwt\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA1NzY2NDgsInN1YiI6MTF9.HIpfPcZRPVfYYiyIEJvmTO5sucWxGnG1YD_CPjFPjMM\"\n}",
+      "response_body": "{\n  \"jwt\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA1NzY2NDgsInN1YiI6OH0.6s-I5YI_JPbKW-SP8UuNrtCd6idHyHbsVTwWTWy2Alo\"\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"742ff6137a9009aab3107f7dd91fb580\"",
+        "ETag": "W/\"c45b70dd41675bc814a86e4150277005\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "0a3724e0-896f-42f9-b5c9-479734121fb7",
-        "X-Runtime": "0.003474",
-        "Content-Length": "127"
+        "X-Request-Id": "c76789f9-a74b-4c96-a317-070b5053206c",
+        "X-Runtime": "0.034396",
+        "Content-Length": "126"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

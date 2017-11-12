@@ -1,6 +1,40 @@
 {
   "resources": [
     {
+      "name": "Manager",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Creating a user account",
+          "link": "manager/creating_a_user_account.json",
+          "groups": "all",
+          "route": "api/v1/managers/registrations",
+          "method": "post"
+        },
+        {
+          "description": "Creating a user account - errors",
+          "link": "manager/creating_a_user_account_-_errors.json",
+          "groups": "all",
+          "route": "api/v1/managers/registrations",
+          "method": "post"
+        },
+        {
+          "description": "Get auth token",
+          "link": "manager/get_auth_token.json",
+          "groups": "all",
+          "route": "api/v1/managers/tokens",
+          "method": "post"
+        },
+        {
+          "description": "Get auth token - errors",
+          "link": "manager/get_auth_token_-_errors.json",
+          "groups": "all",
+          "route": "api/v1/managers/tokens",
+          "method": "post"
+        }
+      ]
+    },
+    {
       "name": "User",
       "explanation": null,
       "examples": [

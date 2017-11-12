@@ -1,8 +1,8 @@
 {
-  "resource": "User",
+  "resource": "Manager",
   "resource_explanation": null,
   "http_method": "POST",
-  "route": "api/v1/users/tokens",
+  "route": "api/v1/managers/tokens",
   "description": "Get auth token - errors",
   "explanation": null,
   "parameters": [
@@ -25,7 +25,7 @@
   "requests": [
     {
       "request_method": "POST",
-      "request_path": "api/v1/users/tokens",
+      "request_path": "api/v1/managers/tokens",
       "request_body": "auth[email]=sasha%40grey.com&auth[password]=password",
       "request_headers": {
         "Accept": "application/json",
@@ -43,8 +43,8 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "text/html",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "e3e79184-bed4-40b9-af7d-e6c5496c88c1",
-        "X-Runtime": "0.004217",
+        "X-Request-Id": "2a8383cd-9946-40d0-ad2d-d34d1c0b0179",
+        "X-Runtime": "0.001429",
         "Content-Length": "0"
       },
       "response_content_type": "text/html",

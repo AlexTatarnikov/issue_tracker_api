@@ -18,6 +18,11 @@ The idea behind the task is to implement an issue tracker like JIRA, Zendesk, or
 #### HowTos
 
 * How to run the test suite: `bundle exec rspec`
+* Regenerate API docs `rake docs:generate`
 
-*Version 11 November 2017*
+#### API Documentation
+
+* You can view API documentation at `localhost:3000/api/docs`
+
+*Version 12 November 2017*
 
