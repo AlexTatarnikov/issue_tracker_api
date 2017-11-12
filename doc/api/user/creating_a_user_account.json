@@ -1,0 +1,58 @@
+{
+  "resource": "User",
+  "resource_explanation": null,
+  "http_method": "POST",
+  "route": "api/v1/users/registrations",
+  "description": "Creating a user account",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "sign_up",
+      "required": true,
+      "name": "email",
+      "description": "Email"
+    },
+    {
+      "scope": "sign_up",
+      "required": true,
+      "name": "password",
+      "description": "Password"
+    },
+    {
+      "scope": "sign_up",
+      "required": true,
+      "name": "password_confirmation",
+      "description": "Password Confirmation"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "api/v1/users/registrations",
+      "request_body": "sign_up[email]=batman%40gotham.com&sign_up[password]=password&sign_up[password_confirmation]=password",
+      "request_headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"jwt\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA1NzU5MTksInN1YiI6NDF9.BCzf031C0P4FxPJn58tUQPm60-xEYC8aTsZ2j-A8Tkg\"\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"e6f6e1b1df68987ff53630715c307c74\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "9f6633cc-ee3f-4b56-bc54-3e68fafc6b05",
+        "X-Runtime": "0.010331",
+        "Content-Length": "127"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}
