@@ -1,4 +1,5 @@
 # Issue Tracker API
+[![Maintainability](https://api.codeclimate.com/v1/badges/63b1f86d44d369b62d70/maintainability)](https://codeclimate.com/github/AlexTatarnikov/issue_tracker_api/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/63b1f86d44d369b62d70/test_coverage)](https://codeclimate.com/github/AlexTatarnikov/issue_tracker_api/test_coverage)
 
 The idea behind the task is to implement an issue tracker like JIRA, Zendesk, or Trello. It should be very simple with only few feature.
 
