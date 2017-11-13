@@ -5,6 +5,20 @@
       "explanation": null,
       "examples": [
         {
+          "description": "Assign issue",
+          "link": "manager/assign_issue.json",
+          "groups": "all",
+          "route": "api/v1/managers/issues/:id/assigns",
+          "method": "post"
+        },
+        {
+          "description": "Assign issue - error - already assigned",
+          "link": "manager/assign_issue_-_error_-_already_assigned.json",
+          "groups": "all",
+          "route": "api/v1/managers/issues/:id/assigns",
+          "method": "post"
+        },
+        {
           "description": "Creating a user account",
           "link": "manager/creating_a_user_account.json",
           "groups": "all",
@@ -38,6 +52,27 @@
           "groups": "all",
           "route": "api/v1/managers/issues",
           "method": "get"
+        },
+        {
+          "description": "Unassign - error - in active state",
+          "link": "manager/unassign_-_error_-_in_active_state.json",
+          "groups": "all",
+          "route": "api/v1/managers/issues/:id/assigns",
+          "method": "delete"
+        },
+        {
+          "description": "Unassign - error - not assigned to manager",
+          "link": "manager/unassign_-_error_-_not_assigned_to_manager.json",
+          "groups": "all",
+          "route": "api/v1/managers/issues/:id/assigns",
+          "method": "delete"
+        },
+        {
+          "description": "Unassign issue",
+          "link": "manager/unassign_issue.json",
+          "groups": "all",
+          "route": "api/v1/managers/issues/:id/assigns",
+          "method": "delete"
         }
       ]
     },

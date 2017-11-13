@@ -6,14 +6,10 @@ module ActionController
     def api_behavior
       raise MissingRenderer.new(format) unless has_renderer?
 
-      if get?
-        display resource
-      elsif post?
+      if post?
         display resource, :status => :created
-      elsif put?
-        display resource
       else
-        head :no_content
+        display resource
       end
     end
   end

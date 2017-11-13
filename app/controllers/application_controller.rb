@@ -3,12 +3,14 @@ require 'application_responder'
 class ApplicationController < ActionController::API
   include Knock::Authenticable
 
-  PER_PAGE = 25
+  rescue_from ActiveRecord::RecordNotFound, with: :not_found
+
+  PER_PAGE = 25.freeze
 
   self.responder = ApplicationResponder
   respond_to :json
 
-  protected
+  private
 
   def page
     params[:page].to_i
@@ -16,5 +18,9 @@ class ApplicationController < ActionController::API
 
   def per_page
     params[:per_page]&.to_i || PER_PAGE
+  end
+
+  def not_found
+    head :not_found
   end
 end

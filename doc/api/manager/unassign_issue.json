@@ -1,9 +1,9 @@
 {
-  "resource": "User",
+  "resource": "Manager",
   "resource_explanation": null,
   "http_method": "DELETE",
-  "route": "api/v1/users/issues/:id",
-  "description": "Destroy issue",
+  "route": "api/v1/managers/issues/:id/assigns",
+  "description": "Unassign issue",
   "explanation": null,
   "parameters": [
 
@@ -14,11 +14,11 @@
   "requests": [
     {
       "request_method": "DELETE",
-      "request_path": "api/v1/users/issues/387",
+      "request_path": "api/v1/managers/issues/393/assigns",
       "request_body": null,
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzIzfQ.Ca6IOsy4InTfS0GU4E1ezPIRs3hUmgkqR2zLbcuzwbg"
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzQxfQ.CMyVSSAW-M18nAtbsmTRBN1ytcVipLJdbpE2rX_2tJY"
       },
       "request_query_parameters": {
       },
@@ -28,8 +28,8 @@
       "response_body": null,
       "response_headers": {
         "Cache-Control": "no-cache",
-        "X-Request-Id": "48b0eae6-2462-4f53-83da-67d3a9825507",
-        "X-Runtime": "0.003568"
+        "X-Request-Id": "6a7c0d16-84d4-462d-b3aa-94c971c122ad",
+        "X-Runtime": "0.004312"
       },
       "response_content_type": null,
       "curl": null

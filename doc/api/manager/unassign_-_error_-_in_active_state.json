@@ -1,0 +1,40 @@
+{
+  "resource": "Manager",
+  "resource_explanation": null,
+  "http_method": "DELETE",
+  "route": "api/v1/managers/issues/:id/assigns",
+  "description": "Unassign - error - in active state",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "api/v1/managers/issues/396/assigns",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzQ1fQ.WL-RSaSUs5-RKdC4Y0Zh_RYYHPr3uL0O4-LOEAgP1xQ"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"errors\": {\n    \"manager_id\": [\n      \"can't be blank\"\n    ]\n  }\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "145c8604-b452-410a-80e5-8985824f47be",
+        "X-Runtime": "0.005505",
+        "Content-Length": "44"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

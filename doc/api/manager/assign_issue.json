@@ -1,0 +1,42 @@
+{
+  "resource": "Manager",
+  "resource_explanation": null,
+  "http_method": "POST",
+  "route": "api/v1/managers/issues/:id/assigns",
+  "description": "Assign issue",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "api/v1/managers/issues/394/assigns",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzQyfQ.OobF3JKVJl5NbjLWS915UVqbwl3ZzyIQahHXNssFHwo",
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"data\": {\n    \"id\": 394,\n    \"type\": \"issue\",\n    \"summary\": \"Ut optio rerum sed.\",\n    \"description\": \"Veniam distinctio aspernatur et autem qui sint expedita. Voluptas enim quae autem. Magni aut deleniti cupiditate.\"\n  }\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"ac7670098b80eeb54e3554db91644b6e\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "548ca539-2859-4553-ace2-df39582fa50a",
+        "X-Runtime": "0.005206",
+        "Content-Length": "196"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

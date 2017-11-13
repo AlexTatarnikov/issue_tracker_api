@@ -14,25 +14,25 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/users/issues/89",
+      "request_path": "api/v1/users/issues/390",
       "request_body": null,
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTkyMDUsInN1YiI6MTQ4fQ.JrVti3FgXHaSlRnsANTIxjHsXxBuvQkNjDlzkp_63bc"
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzI3fQ.t5fEsHCHq8GNtdvC04DaXsxSo8-KjVGUGFt6euuyZDs"
       },
       "request_query_parameters": {
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 89,\n    \"type\": \"issue\",\n    \"summary\": \"Aliquid voluptatem quam minus nemo iure dolorem quia quas.\",\n    \"description\": \"Minus ad nostrum minima beatae vitae ut. Velit nesciunt voluptatum impedit. Autem quaerat temporibus ipsam vitae rem mollitia. Repudiandae consequatur enim aspernatur in soluta labore. Aut delectus rerum.\"\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 390,\n    \"type\": \"issue\",\n    \"summary\": \"Tempore molestiae qui rerum maxime ab alias.\",\n    \"description\": \"Nihil vel modi tempore voluptatibus eaque in. Blanditiis veritatis ea. Et esse iusto cumque ut id adipisci. Occaecati quam voluptas accusantium praesentium vero.\"\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"baf10933b70fc2d534f3c7fab87a7e7e\"",
+        "ETag": "W/\"1314b3067c815f8399461e6b0b561eeb\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6acb1dab-3997-4ca5-be34-0c1185a39e52",
-        "X-Runtime": "0.002586",
-        "Content-Length": "325"
+        "X-Request-Id": "f8b12f05-e670-4898-a63d-8d46c776814a",
+        "X-Runtime": "0.002696",
+        "Content-Length": "269"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

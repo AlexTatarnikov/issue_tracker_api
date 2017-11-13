@@ -15,4 +15,24 @@ RSpec.describe Issue, type: :model do
 
     it { is_expected.to eq [issue2, issue1] }
   end
+
+  describe '#ensure_manager_on_active' do
+    let(:state) { 'pending' }
+
+    subject { build :issue, state: state, manager_id: nil }
+
+    it { is_expected.to be_valid }
+
+    context 'when issue in in progress state' do
+      let(:state) { 'in_progress' }
+
+      it { is_expected.not_to be_valid }
+    end
+
+    context 'when issue in resolved state' do
+      let(:state) { 'resolved' }
+
+      it { is_expected.not_to be_valid }
+    end
+  end
 end
