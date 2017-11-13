@@ -22,7 +22,7 @@ The idea behind the task is to implement an issue tracker like JIRA, Zendesk, or
 
 #### API Documentation
 
-* You can view API documentation at `localhost:3000/`
+* You can check API documentation on your local machine http://localhost:3000/ or at https://issue-tracker-api.herokuapp.com
 
-*Version 12 November 2017*
+*Version 13 November 2017*
 
