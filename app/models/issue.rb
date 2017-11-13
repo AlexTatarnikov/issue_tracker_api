@@ -1,6 +1,7 @@
 class Issue < ApplicationRecord
 
   belongs_to :requester, class_name: 'User'
+  belongs_to :manager, optional: true
 
   validates :summary, presence: true
 

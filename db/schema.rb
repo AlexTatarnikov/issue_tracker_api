@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171113111351) do
+ActiveRecord::Schema.define(version: 20171113113542) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,9 @@ ActiveRecord::Schema.define(version: 20171113111351) do
     t.datetime "updated_at", null: false
     t.integer "requester_id", null: false
     t.integer "state", default: 0, null: false
+    t.bigint "manager_id"
+    t.index ["manager_id", "state"], name: "index_issues_on_manager_id_and_state"
+    t.index ["manager_id"], name: "index_issues_on_manager_id"
     t.index ["requester_id", "state"], name: "index_issues_on_requester_id_and_state"
   end
 
@@ -41,5 +44,6 @@ ActiveRecord::Schema.define(version: 20171113111351) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
+  add_foreign_key "issues", "managers"
   add_foreign_key "issues", "users", column: "requester_id"
 end
