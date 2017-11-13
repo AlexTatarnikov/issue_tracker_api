@@ -44,4 +44,51 @@ RSpec.describe Api::V1::Users::IssuesController, type: :controller do
       end
     end
   end
+
+  describe '#create' do
+    let(:issue) { double(:issue) }
+    let(:issues) { double(:issues) }
+    let(:attributes) { attributes_for(:issue) }
+
+    before { allow_any_instance_of(User).to receive(:issues).and_return(issues) }
+    before { allow(issues).to receive(:create).and_return(issue) }
+    before { allow(issue).to receive(:persisted?).and_return(true) }
+
+    subject { post :create, params: { issue: attributes }, format: :json }
+
+    it { is_expected.to have_http_status(201) }
+
+    it 'creates only by permitted params' do
+      subject
+
+      expect(issues).to have_received(:create).with(
+        ActionController::Parameters.new({summary: attributes[:summary], description: attributes[:description]})
+          .permit(:summary, :description)
+      )
+    end
+  end
+
+  describe '#update' do
+    let(:issue) { double(:issue) }
+    let(:issues) { double(:issues) }
+    let(:attributes) { attributes_for(:issue) }
+
+    before { allow_any_instance_of(User).to receive(:issues).and_return(issues) }
+    before { allow(issues).to receive(:find).and_return(issue) }
+    before { allow(issue).to receive(:update).and_return(true) }
+
+    subject { put :update, params: { issue: attributes, id: 3 }, format: :json }
+
+    it { is_expected.to have_http_status(200) }
+
+    it 'creates only by permitted params' do
+      subject
+
+      expect(issues).to have_received(:find).with('3')
+      expect(issue).to have_received(:update).with(
+        ActionController::Parameters.new({summary: attributes[:summary], description: attributes[:description]})
+          .permit(:summary, :description)
+      )
+    end
+  end
 end
