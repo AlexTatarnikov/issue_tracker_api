@@ -14,11 +14,11 @@
   "requests": [
     {
       "request_method": "POST",
-      "request_path": "api/v1/managers/issues/395/assigns",
+      "request_path": "api/v1/managers/issues/631/assigns",
       "request_body": null,
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzQ0fQ.CllaVMCAhI2PD9S-oeoh-DG_MDsO8cNU_fpP5fYJCT0",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTMxNzEyMTIsInN1YiI6MTE4MX0.MGJaORHm2XbZMbeqE_hmSUaaSW_D1tUwx30QwUOmD5w",
         "Content-Type": "application/x-www-form-urlencoded"
       },
       "request_query_parameters": {
@@ -30,8 +30,8 @@
       "response_headers": {
         "Content-Type": "application/json",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "7f711d9f-642f-492a-8781-02af87d4fa10",
-        "X-Runtime": "0.002091",
+        "X-Request-Id": "8b4075a9-449d-46c9-bff8-64720d3a78c3",
+        "X-Runtime": "0.001945",
         "Content-Length": "0"
       },
       "response_content_type": "application/json",

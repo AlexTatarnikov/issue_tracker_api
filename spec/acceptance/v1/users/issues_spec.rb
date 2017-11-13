@@ -21,13 +21,15 @@ resource 'User' do
           id: issue2.id,
           type: 'issue',
           summary: issue2.summary,
-          description: issue2.description
+          description: issue2.description,
+          state: 'pending'
         },
         {
           id: issue1.id,
           type: 'issue',
           summary: issue1.summary,
-          description: issue1.description
+          description: issue1.description,
+          state: 'pending'
         }
       ]}.to_json)
     end
@@ -44,7 +46,8 @@ resource 'User' do
                                       id: issue.id,
                                       type: 'issue',
                                       summary: issue.summary,
-                                      description: issue.description
+                                      description: issue.description,
+                                      state: 'pending'
                                     }
                                   }.to_json)
     end
@@ -96,7 +99,8 @@ resource 'User' do
                                       id: issue.id,
                                       type: 'issue',
                                       summary: 'Issues List',
-                                      description: 'A user should be able to update issue'
+                                      description: 'A user should be able to update issue',
+                                      state: 'pending'
                                     }
                                   }.to_json)
     end

@@ -42,4 +42,24 @@ RSpec.describe Api::V1::Managers::IssuesController, type: :controller do
       end
     end
   end
+
+  describe '#update' do
+    let(:manager_issues) { double(:manager_issues) }
+    let(:issue) { double(:issue) }
+
+    before { allow_any_instance_of(Manager).to receive(:issues).and_return(manager_issues) }
+    before { allow(manager_issues).to receive(:find).and_return(issue) }
+    before { allow(issue).to receive(:update).and_return(true) }
+
+    subject { put :update, params: { id: 3, issue: attributes_for(:issue, state: 'resolved') }, format: :json }
+
+    it { is_expected.to have_http_status(200) }
+
+    it 'unassigns issue from current manager' do
+      subject
+
+      expect(manager_issues).to have_received(:find).with('3')
+      expect(issue).to have_received(:update).with(ActionController::Parameters.new({state: 'resolved'}).permit(:state))
+    end
+  end
 end

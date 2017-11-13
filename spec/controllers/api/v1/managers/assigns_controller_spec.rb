@@ -31,7 +31,7 @@ RSpec.describe Api::V1::Managers::AssignsController, type: :controller do
 
     before { allow_any_instance_of(Manager).to receive(:issues).and_return(manager_issues) }
     before { allow(manager_issues).to receive(:find).and_return(issue) }
-    before { allow(issue).to receive(:update).and_return(true)  }
+    before { allow(issue).to receive(:update).and_return(true) }
 
     subject { delete :destroy, params: { id: 3 }, format: :json }
 

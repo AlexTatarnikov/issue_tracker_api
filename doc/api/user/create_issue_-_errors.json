@@ -28,7 +28,7 @@
       "request_body": "issue[description]=A+user+should+be+able+to+update+issue",
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzI1fQ.GEVttTMSLj3QSUU1RAjj7lN-VMqTGNMAMfZpU4771yg",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTMxNzEyMTEsInN1YiI6MTA5MX0.TT19Ro0Fbh2Z0ccZBv-kNrw-9gRlvy1g8gj22vWC2zw",
         "Content-Type": "application/x-www-form-urlencoded"
       },
       "request_query_parameters": {
@@ -40,8 +40,8 @@
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "cb1faef4-b6ac-4d52-886b-2a21e673f641",
-        "X-Runtime": "0.003238",
+        "X-Request-Id": "b307b3e1-9b3e-4e35-a94b-057df2a87832",
+        "X-Runtime": "0.015044",
         "Content-Length": "41"
       },
       "response_content_type": "application/json; charset=utf-8",

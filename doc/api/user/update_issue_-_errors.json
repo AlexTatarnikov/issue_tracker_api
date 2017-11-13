@@ -23,11 +23,11 @@
   "requests": [
     {
       "request_method": "PUT",
-      "request_path": "api/v1/users/issues/388",
+      "request_path": "api/v1/users/issues/623",
       "request_body": "issue[summary]",
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzI0fQ.GU2dzo0zeM3G_Dhj3J0bQSDn7rcePN4hIF117H7lHww",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTMxNzEyMTEsInN1YiI6MTA5NH0.F9-THFQof0hC97eELPNn_jykq9F7bsZjWljsb7cf2m0",
         "Content-Type": "application/x-www-form-urlencoded"
       },
       "request_query_parameters": {
@@ -39,8 +39,8 @@
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "f6fb5d60-c9a5-4c5c-8dfd-9c958dd4a5ce",
-        "X-Runtime": "0.015110",
+        "X-Request-Id": "420d6a38-8afd-49ac-b863-66a2684775f4",
+        "X-Runtime": "0.004461",
         "Content-Length": "41"
       },
       "response_content_type": "application/json; charset=utf-8",

@@ -73,6 +73,13 @@
           "groups": "all",
           "route": "api/v1/managers/issues/:id/assigns",
           "method": "delete"
+        },
+        {
+          "description": "Update issue",
+          "link": "manager/update_issue.json",
+          "groups": "all",
+          "route": "api/v1/managers/issues/:id",
+          "method": "put"
         }
       ]
     },

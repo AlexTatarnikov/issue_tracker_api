@@ -1,0 +1,46 @@
+{
+  "resource": "Manager",
+  "resource_explanation": null,
+  "http_method": "PUT",
+  "route": "api/v1/managers/issues/:id",
+  "description": "Update issue",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "issue",
+      "name": "state",
+      "description": "State. Allowed: [\"pending\", \"in_progress\", \"resolved\"]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "api/v1/managers/issues/632",
+      "request_body": "issue[state]=in_progress",
+      "request_headers": {
+        "Accept": "application/json",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTMxNzEyMTIsInN1YiI6MTE4Mn0.hrK_-KOxf-b1B4pjvESWTcmjx24kCHTOAQyldQASJYI",
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"data\": {\n    \"id\": 632,\n    \"type\": \"issue\",\n    \"summary\": \"Et quisquam incidunt alias omnis.\",\n    \"description\": \"Nostrum sint quos tempora. Animi tenetur at ab et vel voluptas. Autem voluptatibus quidem fugit. Ut eligendi minima.\",\n    \"state\": \"in_progress\"\n  }\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"d86c7ceb79be8b1bc800ea446e835c8a\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "68159e57-18fc-4ec6-b1d9-32a56a466ab2",
+        "X-Runtime": "0.007042",
+        "Content-Length": "235"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

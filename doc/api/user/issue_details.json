@@ -14,25 +14,25 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/users/issues/390",
+      "request_path": "api/v1/users/issues/620",
       "request_body": null,
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzI3fQ.t5fEsHCHq8GNtdvC04DaXsxSo8-KjVGUGFt6euuyZDs"
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTMxNzEyMTEsInN1YiI6MTA5MH0.P280nhpdVprx2Q8lasheNCEbLJkWSIpIvDKdonOF-ho"
       },
       "request_query_parameters": {
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 390,\n    \"type\": \"issue\",\n    \"summary\": \"Tempore molestiae qui rerum maxime ab alias.\",\n    \"description\": \"Nihil vel modi tempore voluptatibus eaque in. Blanditiis veritatis ea. Et esse iusto cumque ut id adipisci. Occaecati quam voluptas accusantium praesentium vero.\"\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 620,\n    \"type\": \"issue\",\n    \"summary\": \"Aut laudantium ut sunt aperiam ipsam enim.\",\n    \"description\": \"Aperiam et cum. Odio qui fuga maxime ad officia ipsa. Laboriosam deserunt minima et veniam. Debitis enim maiores ut aut est magni qui. Nisi eveniet sequi.\",\n    \"state\": \"pending\"\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"1314b3067c815f8399461e6b0b561eeb\"",
+        "ETag": "W/\"3ddec3c27a74166e02a27149d2f78e6c\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "f8b12f05-e670-4898-a63d-8d46c776814a",
-        "X-Runtime": "0.002696",
-        "Content-Length": "269"
+        "X-Request-Id": "1d735039-96bd-40f0-96f1-95d0aba22097",
+        "X-Runtime": "0.058506",
+        "Content-Length": "278"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

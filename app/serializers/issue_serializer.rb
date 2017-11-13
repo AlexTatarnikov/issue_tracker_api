@@ -1,3 +1,3 @@
 class IssueSerializer < ApplicationSerializer
-  attributes :id, :type, :summary, :description
+  attributes :id, :type, :summary, :description, :state
 end

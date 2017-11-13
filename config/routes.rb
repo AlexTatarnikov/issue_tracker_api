@@ -14,7 +14,7 @@ Rails.application.routes.draw do
         post 'tokens' => 'tokens#create'
         post 'registrations' => 'registrations#create'
 
-        resources :issues, only: [:index] do
+        resources :issues, only: [:index, :update] do
           member do
             resource :assigns, only: [:create, :destroy]
           end

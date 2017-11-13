@@ -14,11 +14,11 @@
   "requests": [
     {
       "request_method": "DELETE",
-      "request_path": "api/v1/users/issues/387",
+      "request_path": "api/v1/users/issues/624",
       "request_body": null,
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzIzfQ.Ca6IOsy4InTfS0GU4E1ezPIRs3hUmgkqR2zLbcuzwbg"
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTMxNzEyMTIsInN1YiI6MTA5NX0.786VrFi5d6K7XCYVjm6IDo9S40CPh6adKbuvt_5DcrY"
       },
       "request_query_parameters": {
       },
@@ -28,8 +28,8 @@
       "response_body": null,
       "response_headers": {
         "Cache-Control": "no-cache",
-        "X-Request-Id": "48b0eae6-2462-4f53-83da-67d3a9825507",
-        "X-Runtime": "0.003568"
+        "X-Request-Id": "ad13d091-33e9-4b16-9567-c217c4752b39",
+        "X-Runtime": "0.003158"
       },
       "response_content_type": null,
       "curl": null

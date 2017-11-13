@@ -23,11 +23,11 @@
   "requests": [
     {
       "request_method": "PUT",
-      "request_path": "api/v1/users/issues/391",
+      "request_path": "api/v1/users/issues/621",
       "request_body": "issue[summary]=Issues+List&issue[description]=A+user+should+be+able+to+update+issue",
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzI4fQ.MNR5sy0sqwxjBiaxlOH3o2dbFhbvin6uRbw2TtdgD5o",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTMxNzEyMTEsInN1YiI6MTA5Mn0.0TzlD8zrbgWbTlUZ2P9qxyzIshru4R4BheIQ2v9jTPg",
         "Content-Type": "application/x-www-form-urlencoded"
       },
       "request_query_parameters": {
@@ -35,14 +35,14 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 391,\n    \"type\": \"issue\",\n    \"summary\": \"Issues List\",\n    \"description\": \"A user should be able to update issue\"\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 621,\n    \"type\": \"issue\",\n    \"summary\": \"Issues List\",\n    \"description\": \"A user should be able to update issue\",\n    \"state\": \"pending\"\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fc0b10aff83be52b1f4f01b3910e5357\"",
+        "ETag": "W/\"ce73dcdfe1ae0b921fe74fbf1554ea04\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "1b862d99-56ee-489d-9bf0-1d7b8db0cf9b",
-        "X-Runtime": "0.004829",
-        "Content-Length": "112"
+        "X-Request-Id": "d6b607e8-7b77-4068-917c-40e03e93c0ca",
+        "X-Runtime": "0.004905",
+        "Content-Length": "130"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

@@ -18,7 +18,8 @@ resource 'Manager' do
         id: issue.id,
         type: 'issue',
         summary: issue.summary,
-        description: issue.description
+        description: issue.description,
+        state: 'pending'
       }}.to_json)
     end
   end

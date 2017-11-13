@@ -14,11 +14,11 @@
   "requests": [
     {
       "request_method": "DELETE",
-      "request_path": "api/v1/managers/issues/393/assigns",
+      "request_path": "api/v1/managers/issues/627/assigns",
       "request_body": null,
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NjM4MDUsInN1YiI6NzQxfQ.CMyVSSAW-M18nAtbsmTRBN1ytcVipLJdbpE2rX_2tJY"
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTMxNzEyMTIsInN1YiI6MTE3NX0.KbwU1XMPy5w0WmEeVWkGdDjyXQsfCeRUR2gTMKJrRhM"
       },
       "request_query_parameters": {
       },
@@ -28,8 +28,8 @@
       "response_body": null,
       "response_headers": {
         "Cache-Control": "no-cache",
-        "X-Request-Id": "6a7c0d16-84d4-462d-b3aa-94c971c122ad",
-        "X-Runtime": "0.004312"
+        "X-Request-Id": "5793c30a-81dd-46dc-9cfd-fdf497d95c68",
+        "X-Runtime": "0.010170"
       },
       "response_content_type": null,
       "curl": null
