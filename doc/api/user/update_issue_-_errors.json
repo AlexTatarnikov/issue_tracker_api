@@ -1,0 +1,50 @@
+{
+  "resource": "User",
+  "resource_explanation": null,
+  "http_method": "PUT",
+  "route": "api/v1/users/issues/:id",
+  "description": "Update issue - errors",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "issue",
+      "name": "summary",
+      "description": "Summary"
+    },
+    {
+      "scope": "issue",
+      "name": "description",
+      "description": "Description"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "api/v1/users/issues/163",
+      "request_body": "issue[summary]",
+      "request_headers": {
+        "Accept": "application/json",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTcxNzYsInN1YiI6MzI0fQ.lFBiBHtl4V7mML9Pgd6evwoI2MZqBxViQrtkOwLZpL4",
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"errors\": {\n    \"summary\": [\n      \"can't be blank\"\n    ]\n  }\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "0bc26bf6-b03e-4a0d-8d8a-51b143a91827",
+        "X-Runtime": "0.007031",
+        "Content-Length": "41"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

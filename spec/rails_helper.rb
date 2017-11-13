@@ -40,6 +40,7 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = false
 
   config.include FactoryBot::Syntax::Methods
+  config.include RequestHelper, type: :controller
 
 
   # RSpec Rails can automatically mix in different behaviours to your tests

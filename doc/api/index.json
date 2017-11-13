@@ -39,6 +39,20 @@
       "explanation": null,
       "examples": [
         {
+          "description": "Create issue",
+          "link": "user/create_issue.json",
+          "groups": "all",
+          "route": "api/v1/users/issues",
+          "method": "post"
+        },
+        {
+          "description": "Create issue - errors",
+          "link": "user/create_issue_-_errors.json",
+          "groups": "all",
+          "route": "api/v1/users/issues",
+          "method": "post"
+        },
+        {
           "description": "Creating a user account",
           "link": "user/creating_a_user_account.json",
           "groups": "all",
@@ -53,6 +67,13 @@
           "method": "post"
         },
         {
+          "description": "Destroy issue",
+          "link": "user/destroy_issue.json",
+          "groups": "all",
+          "route": "api/v1/users/issues/:id",
+          "method": "delete"
+        },
+        {
           "description": "Get auth token",
           "link": "user/get_auth_token.json",
           "groups": "all",
@@ -65,6 +86,34 @@
           "groups": "all",
           "route": "api/v1/users/tokens",
           "method": "post"
+        },
+        {
+          "description": "Issue details",
+          "link": "user/issue_details.json",
+          "groups": "all",
+          "route": "api/v1/users/issues/:id",
+          "method": "get"
+        },
+        {
+          "description": "Issues list",
+          "link": "user/issues_list.json",
+          "groups": "all",
+          "route": "api/v1/users/issues",
+          "method": "get"
+        },
+        {
+          "description": "Update issue",
+          "link": "user/update_issue.json",
+          "groups": "all",
+          "route": "api/v1/users/issues/:id",
+          "method": "put"
+        },
+        {
+          "description": "Update issue - errors",
+          "link": "user/update_issue_-_errors.json",
+          "groups": "all",
+          "route": "api/v1/users/issues/:id",
+          "method": "put"
         }
       ]
     }

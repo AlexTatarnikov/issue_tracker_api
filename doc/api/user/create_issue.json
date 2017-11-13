@@ -1,0 +1,52 @@
+{
+  "resource": "User",
+  "resource_explanation": null,
+  "http_method": "POST",
+  "route": "api/v1/users/issues",
+  "description": "Create issue",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "issue",
+      "required": true,
+      "name": "summary",
+      "description": "Summary"
+    },
+    {
+      "scope": "issue",
+      "name": "description",
+      "description": "Description"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "api/v1/users/issues",
+      "request_body": "issue[summary]=Issues+List&issue[description]=A+user+should+be+able+to+update+issue",
+      "request_headers": {
+        "Accept": "application/json",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTcxNzYsInN1YiI6MzIzfQ.6beYoqV1IzemMVNuXlZZ6cmIWQDYHjGRADOktt0rpN8",
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"data\": {\n    \"id\": 162,\n    \"type\": \"issue\",\n    \"summary\": \"Issues List\",\n    \"description\": \"A user should be able to update issue\"\n  }\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"09378040c81851bfcebf57df49bfc325\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "7810f037-29e2-46d2-8b62-1fd9f77ad95a",
+        "X-Runtime": "0.004535",
+        "Content-Length": "112"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

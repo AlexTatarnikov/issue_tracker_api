@@ -1,0 +1,41 @@
+{
+  "resource": "User",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "api/v1/users/issues/:id",
+  "description": "Issue details",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "api/v1/users/issues/164",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTcxNzYsInN1YiI6MzI1fQ.GvGztampogFLX_XRAiZYJczCKznr6Kp4InMkI4p83WE"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"data\": {\n    \"id\": 164,\n    \"type\": \"issue\",\n    \"summary\": \"Corporis necessitatibus ut unde sit et sit.\",\n    \"description\": \"At minus consequuntur veniam amet nisi accusantium. Ut officia eum. Et asperiores pariatur quo autem.\"\n  }\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7ec1fcc7806b95141d1e0aed5467d508\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "4d7dd0e3-0f42-4a2a-9194-777d3eead2c8",
+        "X-Runtime": "0.002478",
+        "Content-Length": "208"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

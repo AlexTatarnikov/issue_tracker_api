@@ -1,0 +1,41 @@
+{
+  "resource": "User",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "api/v1/users/issues",
+  "description": "Issues list",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "api/v1/users/issues",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTcxNzYsInN1YiI6MzIxfQ.iuYY5aU6BuMZxySY_HGzypnP-2F2cE4fnMmjsPPnf2M"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"data\": [\n    {\n      \"id\": 160,\n      \"type\": \"issue\",\n      \"summary\": \"Qui eos et ut.\",\n      \"description\": \"Dolore et iusto vero et est voluptatem aliquid. Qui iure ex facilis vel ab libero. Molestiae qui nemo explicabo dolorem ut iusto aliquid. Natus adipisci deleniti laborum doloremque excepturi qui.\"\n    },\n    {\n      \"id\": 159,\n      \"type\": \"issue\",\n      \"summary\": \"Quae quis optio quia placeat corrupti sit nulla.\",\n      \"description\": \"Sapiente quia amet pariatur deleniti. Iusto corrupti autem sit velit ut earum. Non quos neque minus. Voluptatum adipisci ducimus provident dolore facere. Sunt eius soluta qui.\"\n    }\n  ]\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7fb040af31f87de354916b60b9e8dd47\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "63fda3a4-fbc0-4f73-af0f-22af344e6f20",
+        "X-Runtime": "0.027498",
+        "Content-Length": "554"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

@@ -6,6 +6,8 @@ Rails.application.routes.draw do
       namespace :users do
         post 'tokens' => 'tokens#create'
         post 'registrations' => 'registrations#create'
+
+        resources :issues
       end
 
       namespace :managers do

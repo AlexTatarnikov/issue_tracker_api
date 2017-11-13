@@ -11,7 +11,10 @@ gem 'rails', '~> 5.1.4'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
 gem 'kaminari'
+
+#API Staff
 gem 'responders'
+gem 'active_model_serializers', '~> 0.10.0'
 
 #Authentication
 gem 'bcrypt'

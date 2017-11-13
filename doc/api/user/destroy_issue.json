@@ -1,0 +1,38 @@
+{
+  "resource": "User",
+  "resource_explanation": null,
+  "http_method": "DELETE",
+  "route": "api/v1/users/issues/:id",
+  "description": "Destroy issue",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "api/v1/users/issues/161",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTcxNzYsInN1YiI6MzIyfQ.F-A4kGVWquugA6FTEUKO9gbT34u6rpzqSmqA7ALSssQ"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_headers": {
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "cf01e530-994a-4972-8d95-b9fc498270bd",
+        "X-Runtime": "0.003192"
+      },
+      "response_content_type": null,
+      "curl": null
+    }
+  ]
+}
