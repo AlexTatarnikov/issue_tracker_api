@@ -1,7 +1,8 @@
 class Api::V1::Users::IssuesController < Api::V1::Users::BaseController
+  has_scope :by_state
 
   def index
-    @issues = current_user.issues.recent.page(page).per(per_page)
+    @issues = apply_scopes(current_user.issues).recent.page(page).per(per_page)
 
     respond_with_success(@issues)
   end

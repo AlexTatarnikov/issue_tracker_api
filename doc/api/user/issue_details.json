@@ -14,25 +14,25 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/users/issues/164",
+      "request_path": "api/v1/users/issues/89",
       "request_body": null,
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTcxNzYsInN1YiI6MzI1fQ.GvGztampogFLX_XRAiZYJczCKznr6Kp4InMkI4p83WE"
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTkyMDUsInN1YiI6MTQ4fQ.JrVti3FgXHaSlRnsANTIxjHsXxBuvQkNjDlzkp_63bc"
       },
       "request_query_parameters": {
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": 164,\n    \"type\": \"issue\",\n    \"summary\": \"Corporis necessitatibus ut unde sit et sit.\",\n    \"description\": \"At minus consequuntur veniam amet nisi accusantium. Ut officia eum. Et asperiores pariatur quo autem.\"\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 89,\n    \"type\": \"issue\",\n    \"summary\": \"Aliquid voluptatem quam minus nemo iure dolorem quia quas.\",\n    \"description\": \"Minus ad nostrum minima beatae vitae ut. Velit nesciunt voluptatum impedit. Autem quaerat temporibus ipsam vitae rem mollitia. Repudiandae consequatur enim aspernatur in soluta labore. Aut delectus rerum.\"\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7ec1fcc7806b95141d1e0aed5467d508\"",
+        "ETag": "W/\"baf10933b70fc2d534f3c7fab87a7e7e\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "4d7dd0e3-0f42-4a2a-9194-777d3eead2c8",
-        "X-Runtime": "0.002478",
-        "Content-Length": "208"
+        "X-Request-Id": "6acb1dab-3997-4ca5-be34-0c1185a39e52",
+        "X-Runtime": "0.002586",
+        "Content-Length": "325"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

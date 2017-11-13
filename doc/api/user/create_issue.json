@@ -28,7 +28,7 @@
       "request_body": "issue[summary]=Issues+List&issue[description]=A+user+should+be+able+to+update+issue",
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTcxNzYsInN1YiI6MzIzfQ.6beYoqV1IzemMVNuXlZZ6cmIWQDYHjGRADOktt0rpN8",
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTkyMDUsInN1YiI6MTUwfQ.I2B8gNfQPuLhSoY9t2Ufy_Pha5GlvpKPNCvHyCVKazg",
         "Content-Type": "application/x-www-form-urlencoded"
       },
       "request_query_parameters": {
@@ -36,14 +36,14 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"data\": {\n    \"id\": 162,\n    \"type\": \"issue\",\n    \"summary\": \"Issues List\",\n    \"description\": \"A user should be able to update issue\"\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": 91,\n    \"type\": \"issue\",\n    \"summary\": \"Issues List\",\n    \"description\": \"A user should be able to update issue\"\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"09378040c81851bfcebf57df49bfc325\"",
+        "ETag": "W/\"a54eccb1145678eef77f0e9ee9597cdf\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "7810f037-29e2-46d2-8b62-1fd9f77ad95a",
-        "X-Runtime": "0.004535",
-        "Content-Length": "112"
+        "X-Request-Id": "05eb5ef4-0d9e-4853-91de-cad16f579190",
+        "X-Runtime": "0.004607",
+        "Content-Length": "111"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

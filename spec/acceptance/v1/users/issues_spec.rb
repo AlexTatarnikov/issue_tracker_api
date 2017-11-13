@@ -12,6 +12,8 @@ resource 'User' do
     let!(:issue1) { create :issue, created_at: Time.now.yesterday, requester: user }
     let!(:issue2) { create :issue, created_at: Time.now.tomorrow, requester: user }
 
+    parameter :by_state, 'Filter issues by state'
+
     example_request 'Issues list' do
       expect(status).to eq(200)
       expect(response_body).to eq({data: [

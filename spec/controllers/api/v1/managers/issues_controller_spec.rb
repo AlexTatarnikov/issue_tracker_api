@@ -23,5 +23,23 @@ RSpec.describe Api::V1::Managers::IssuesController, type: :controller do
       expect(ordered_issues).to have_received(:page).with(0)
       expect(paginated_issues).to have_received(:per).with(25)
     end
+
+    context 'when filtered by state' do
+      let(:filtered_issues) { double(:filtered_issues) }
+
+      before { allow(Issue).to receive(:by_state).and_return(filtered_issues) }
+      before { allow(filtered_issues).to receive(:recent).and_return(ordered_issues) }
+
+      subject { get :index, params: { by_state: 'resolved' }, format: :json }
+
+      it 'returns filtered issues' do
+        subject
+
+        expect(Issue).to have_received(:by_state).with('resolved')
+        expect(filtered_issues).to have_received(:recent)
+        expect(ordered_issues).to have_received(:page).with(0)
+        expect(paginated_issues).to have_received(:per).with(25)
+      end
+    end
   end
 end

@@ -7,4 +7,5 @@ class Issue < ApplicationRecord
   enum state: [:pending, :in_progress, :resolved]
 
   scope :recent, -> { order(created_at: :desc) }
+  scope :by_state, ->(state) { where(state: state) }
 end

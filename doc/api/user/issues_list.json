@@ -6,7 +6,10 @@
   "description": "Issues list",
   "explanation": null,
   "parameters": [
-
+    {
+      "name": "by_state",
+      "description": "Filter issues by state"
+    }
   ],
   "response_fields": [
 
@@ -18,21 +21,21 @@
       "request_body": null,
       "request_headers": {
         "Accept": "application/json",
-        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTcxNzYsInN1YiI6MzIxfQ.iuYY5aU6BuMZxySY_HGzypnP-2F2cE4fnMmjsPPnf2M"
+        "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA2NTkyMDQsInN1YiI6MTQ3fQ.pbuFyWW8ninNLXJteGID-wQhOhL3aeiysu9ZDPqzdEA"
       },
       "request_query_parameters": {
       },
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": [\n    {\n      \"id\": 160,\n      \"type\": \"issue\",\n      \"summary\": \"Qui eos et ut.\",\n      \"description\": \"Dolore et iusto vero et est voluptatem aliquid. Qui iure ex facilis vel ab libero. Molestiae qui nemo explicabo dolorem ut iusto aliquid. Natus adipisci deleniti laborum doloremque excepturi qui.\"\n    },\n    {\n      \"id\": 159,\n      \"type\": \"issue\",\n      \"summary\": \"Quae quis optio quia placeat corrupti sit nulla.\",\n      \"description\": \"Sapiente quia amet pariatur deleniti. Iusto corrupti autem sit velit ut earum. Non quos neque minus. Voluptatum adipisci ducimus provident dolore facere. Sunt eius soluta qui.\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"data\": [\n    {\n      \"id\": 88,\n      \"type\": \"issue\",\n      \"summary\": \"Provident reiciendis sint unde aut.\",\n      \"description\": \"Velit ratione veniam iusto sunt et aut. Velit ducimus ea suscipit aut commodi nostrum corporis. Saepe suscipit porro. Et sunt modi unde deserunt.\"\n    },\n    {\n      \"id\": 87,\n      \"type\": \"issue\",\n      \"summary\": \"Eum non vel nisi est suscipit delectus.\",\n      \"description\": \"Libero rerum voluptatem cumque perferendis quaerat. Explicabo voluptatem ipsa nulla dignissimos saepe est harum. Sed quidem excepturi ad ab.\"\n    }\n  ]\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"7fb040af31f87de354916b60b9e8dd47\"",
+        "ETag": "W/\"c6780f2ca183f1f91d9f318a87627991\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "63fda3a4-fbc0-4f73-af0f-22af344e6f20",
-        "X-Runtime": "0.027498",
-        "Content-Length": "554"
+        "X-Request-Id": "316d3aaf-26ee-4d51-b5b3-e6b55133fcdf",
+        "X-Runtime": "0.016538",
+        "Content-Length": "479"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

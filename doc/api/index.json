@@ -31,6 +31,13 @@
           "groups": "all",
           "route": "api/v1/managers/tokens",
           "method": "post"
+        },
+        {
+          "description": "Issues list",
+          "link": "manager/issues_list.json",
+          "groups": "all",
+          "route": "api/v1/managers/issues",
+          "method": "get"
         }
       ]
     },
