@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171113093528) do
+ActiveRecord::Schema.define(version: 20171113111351) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 20171113093528) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "requester_id", null: false
+    t.integer "state", default: 0, null: false
+    t.index ["requester_id", "state"], name: "index_issues_on_requester_id_and_state"
   end
 
   create_table "managers", force: :cascade do |t|

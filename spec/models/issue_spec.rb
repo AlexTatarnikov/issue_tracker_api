@@ -4,6 +4,7 @@ RSpec.describe Issue, type: :model do
   it { is_expected.to belong_to(:requester).class_name(User) }
 
   it { is_expected.to validate_presence_of :summary }
+  it { is_expected.to define_enum_for(:state).with([:pending, :in_progress, :resolved]) }
 
   describe '#recent' do
     let!(:issue1) { create :issue, created_at: Time.now.yesterday }

@@ -4,5 +4,7 @@ class Issue < ApplicationRecord
 
   validates :summary, presence: true
 
+  enum state: [:pending, :in_progress, :resolved]
+
   scope :recent, -> { order(created_at: :desc) }
 end
