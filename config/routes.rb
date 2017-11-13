@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  mount Apitome::Engine, at: '/api/docs'
-
   namespace :api do
     namespace :v1 do
       namespace :users do
@@ -22,4 +20,6 @@ Rails.application.routes.draw do
       end
     end
   end
+
+  mount Apitome::Engine, at: '/'
 end

@@ -22,7 +22,7 @@ The idea behind the task is to implement an issue tracker like JIRA, Zendesk, or
 
 #### API Documentation
 
-* You can view API documentation at `localhost:3000/api/docs`
+* You can view API documentation at `localhost:3000/`
 
 *Version 12 November 2017*
 
